@@ -1,0 +1,5 @@
+bin
+static/*
+!.gitkeep
+rice-box.go
+.DS_Store
