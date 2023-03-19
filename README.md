@@ -4,7 +4,8 @@
 
 Builds a single binary that has the static/ dir embedded and will serve it when you run the app.
 Configurable http and https port on boot, and opens a browser.
-Https certs are self-signed, as this is meant as a easy local serve thing
+Https certs are self-signed, as this is meant as a easy local serve thing.
+
 Half of this was done by chatgpt-4.
 
 ### Usefulness
