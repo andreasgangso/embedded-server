@@ -28,8 +28,8 @@ func main() {
 	httpBoxHandler := http.FileServer(httpBox.HTTPBox())
 
 	// Prompt the user for the port number
-	port := promptForPort("Enter a http port (1-65535).", "2020")
-	tlsPort := promptForPort("Enter a https port (1-65535).", "2021")
+	port := promptForPort("Enter a http port (1-65535).", "3000")
+	tlsPort := promptForPort("Enter a https port (1-65535).", "3001")
 	addr := fmt.Sprintf(":%d", *port)
 	tlsAddr := fmt.Sprintf(":%d", *tlsPort)
 
